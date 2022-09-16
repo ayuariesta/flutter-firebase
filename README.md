@@ -17,23 +17,27 @@ Praktikum Flutter Firebase
 ```
 flutter pub add firebase_core 
 ```
+firebase_core adalah kode umum yang diperlukan untuk semua plugin Firebase Flutter.
 
 ```
 flutter pub add firebase_auth
 ```
-
+firebase_auth memungkinkan integrasi dengan kemampuan Otentikasi Firebase.
 ```
 flutter pub add cloud_firestore
 ```
-
+cloud_firestore memungkinkan akses ke penyimpanan data Cloud Firestore.
 ```
 flutter pub add provider
 ```
+menggunakan paket provider yang akan memungkinkan pemisahan logika bisnis dari logika tampilan.
 
+## Install Flutterfire
 ```
 dart pub global activate flutterfire_cli
 ```
 
+## Configure apps
 ```
 flutterfire configure
 ```
